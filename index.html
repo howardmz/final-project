@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <section class="hero">
+        <nav>
+            <ul id="nav-list">
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        <div class="hero-area">
+            <div class="hero-text">
+                <h1>Howard Zhang</h1>
+                <p>Web Developer</p>
+                <div class="button"><a href="#about-me">About Me</a></div>
+                <div class="button"><a href="PDF/Resume.pdf" target="_blank">Resume</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="sub-section" id="about-me">
+        <div class="information">
+            <h2>About Me</h2>
+            <p>Hello. I'm Howard Zhang. I'm an aspiring web developer and a college student at UCSD. I am currently
+                learning HTML, CSS, and JavaScript.</p>
+        </div>
+
+    </section>
+    <section class="sub-section-alternative" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img class="project-image" src="images/gamepal_project.png" alt="gamePal project" />
+                <h3>gamePal</h3>
+                <p class="subtext">I created this project using HTML and CSS. This app is to make it easier for gamers
+                    to find and play with other gamers.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://acsweb.ucsd.edu/~hmz001/ZhangLab3.html"
+                        target="_blank">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="images/dice_project.png" alt="dice project" />
+                <h3>Let's Roll the Dice!</h3>
+                <p class="subtext">I created this project with HTML, CSS, and JavaScript. This is a simple project where
+                    you gamble money by rolling the dice.</p>
+                <hr />
+                <p class="subtext"><a class="project-link" href="https://acsweb.ucsd.edu/~hmz001/dice-lab/dice.html"
+                        target="_blank">View here</a></p>
+            </div>
+            <div class="project-card">
+                <img class="project-image" src="images/wedding_project.png" alt="wedding project" />
+                <h3>Wedding Banquet Table Planner</h3>
+                <p class="subtext">I created this project with HTML, CSS, and JavaScript. This is a simple website to
+                    divide the number of wedding guests evenly between the number of tables.</p>
+                <hr />
+                <p class="subtext"><a class="project-link"
+                        href="https://acsweb.ucsd.edu/~hmz001/wedding-lab/wedding.html" target="_blank">View here</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact-me">
+        <h2>Contact Me</h2>
+        <p>johndoe@gmail.com</p>
+        <p>(123) 456-7890</p>
+    </footer>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
